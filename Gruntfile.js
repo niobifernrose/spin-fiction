@@ -4,6 +4,9 @@ module.exports = function(grunt) {
 	// config grunt
 	grunt.initConfig({
 
+		// config package
+		pkg: grunt.file.readJSON('package.json'),
+
 		// config nodemon
 		nodemon: {
 
