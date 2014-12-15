@@ -1,6 +1,7 @@
 {
   "name": "spin-fiction",
   "version": "0.0.1",
+  "description": "TF Musing Nonsense",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.10.0",
