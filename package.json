@@ -2,15 +2,22 @@
   "name": "spin-fiction",
   "version": "0.0.1",
   "description": "TF Musing Nonsense",
-  "main": "server.js",
   "repository": {
-  	"type": "git",
-  	"url": "https://github.com/niobifernrose/spin-fiction.git"
+    "type": "git",
+    "url": "https://github.com/niobifernrose/spin-fiction.git"
+  },
+  "main": "server.js",
+  "scripts": {
+  	"start": "grunt"
   },
   "dependencies": {
     "body-parser": "^1.10.0",
     "express": "^4.10.6",
     "method-override": "^2.3.0",
     "mongoose": "^3.8.20"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-nodemon": "^0.3.0"
   }
 }
