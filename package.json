@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "TF Musing Nonsense",
   "main": "server.js",
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/niobifernrose/spin-fiction.git"
+  },
   "dependencies": {
     "body-parser": "^1.10.0",
     "express": "^4.10.6",
