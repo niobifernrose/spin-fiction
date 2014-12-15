@@ -33,6 +33,10 @@ app.use(methodOverride('X-HTTP-Method-Override'));
 
 // routes
 //require('./app/routes')(app); // configure our routes
+//todo move to routesjs file
+app.get('/', function(req, res) {
+	res.sendFile(__dirname + "/client/views/index.html");
+});
 
 // start app
 // startup our app at http://localhost:8080
